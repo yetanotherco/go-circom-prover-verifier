@@ -1,4 +1,4 @@
-module github.com/iden3/go-circom-prover-verifier
+module github.com/yetanotherco/go-circom-prover-verifier
 
 go 1.14
 
