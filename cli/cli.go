@@ -4,13 +4,12 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/yetanotherco/go-circom-prover-verifier/parsers"
+	"github.com/yetanotherco/go-circom-prover-verifier/prover"
+	"github.com/yetanotherco/go-circom-prover-verifier/verifier"
 	"io/ioutil"
 	"os"
 	"time"
-
-	"github.com/iden3/go-circom-prover-verifier/parsers"
-	"github.com/iden3/go-circom-prover-verifier/prover"
-	"github.com/iden3/go-circom-prover-verifier/verifier"
 )
 
 const version = "v0.0.1"

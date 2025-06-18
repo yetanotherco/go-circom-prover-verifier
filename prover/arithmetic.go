@@ -2,10 +2,11 @@ package prover
 
 import (
 	"bytes"
+	"github.com/yetanotherco/go-circom-prover-verifier/types"
 	"math/big"
 
 	bn256 "github.com/ethereum/go-ethereum/crypto/bn256/cloudflare"
-	"github.com/iden3/go-circom-prover-verifier/types"
+
 	"github.com/iden3/go-iden3-crypto/ff"
 )
 

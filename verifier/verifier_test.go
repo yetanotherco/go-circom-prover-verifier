@@ -1,10 +1,9 @@
 package verifier
 
 import (
+	"github.com/yetanotherco/go-circom-prover-verifier/parsers"
 	"io/ioutil"
 	"testing"
-
-	"github.com/iden3/go-circom-prover-verifier/parsers"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

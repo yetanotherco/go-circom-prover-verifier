@@ -4,7 +4,6 @@ go 1.22.3
 
 require (
 	github.com/ethereum/go-ethereum v1.14.0
-	github.com/iden3/go-circom-prover-verifier v0.0.1
 	github.com/iden3/go-iden3-crypto v0.0.17
 	github.com/stretchr/testify v1.10.0
 )

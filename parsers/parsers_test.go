@@ -2,11 +2,11 @@ package parsers
 
 import (
 	"encoding/json"
+	"github.com/yetanotherco/go-circom-prover-verifier/types"
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/iden3/go-circom-prover-verifier/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

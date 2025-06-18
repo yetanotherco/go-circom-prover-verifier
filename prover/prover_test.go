@@ -3,13 +3,13 @@ package prover
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/yetanotherco/go-circom-prover-verifier/parsers"
+	"github.com/yetanotherco/go-circom-prover-verifier/verifier"
 	"io/ioutil"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/iden3/go-circom-prover-verifier/parsers"
-	"github.com/iden3/go-circom-prover-verifier/verifier"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
